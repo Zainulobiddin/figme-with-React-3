@@ -1,0 +1,101 @@
+@media (max-width: 600px) {
+    nav {
+        padding: 30px;
+    }
+    .food_nav {
+        display: none;
+    }
+    .icons {
+        gap: 20px;
+    }
+    .main {
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .good_food {
+        width: 90%;
+    }
+    .mainLeft  {
+        align-items: center;
+    }
+    .btn {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    .ketchup  {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 0px;
+        margin: 30px auto;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .lorem {
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .ketchup_img {
+        width: 90%;
+    }
+    .mainLeft  {
+        gap: 10px;
+    }
+    .pos_img, .makaron, .divArrow, .ananas {
+        display: none;
+    }
+    .divBoxFood {
+        flex-direction: column;
+        width: 88%;
+        margin: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+    .boxFood {
+        width: 90%;
+        border: 1px solid #ff9401;
+        padding: 15px 4px;
+        border-radius: 13px;
+        gap: 10px;
+    }
+   .FOODS {
+    width: 90%;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+
+   }
+   .info {
+    gap: 100px;
+   }
+   .divPhone {
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+   }
+   .google, .ketchup2 {
+    width: 90%;
+    margin: auto;
+   }
+   .main3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+   footer {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    /* gap: 0px; */
+    border-radius: 13px;
+   }
+   footer div {
+    gap: 13px;
+    margin: 20 auto;
+   }
+}
